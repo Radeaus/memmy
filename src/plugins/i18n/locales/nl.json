@@ -2,7 +2,7 @@
   "noResult": {
     "comments": "Nog geen reacties. Draag je steentje bij! 🫡",
     "posts": "Geen posts gevonden. Start het gesprek!",
-    "profileComments": "Gebruiker heeft nog niet gereageerd.",
+    "profileComments": "Gebruiker heeft nog niet gereageerd",
     "profilePosts": "Gebruiker heeft geen posts",
     "profileSavedPosts": "Gebruiker heeft nog geen opgeslagen posts.",
     "search": "Geen resultaten.",
@@ -17,13 +17,13 @@
       "error": "Fout",
       "permissionsError": "Toestemmingsfout",
       "unknownError": "Onbekende fout",
-      "success": "Gelukt",
+      "success": "Gelukt!",
       "noDebugLog": "Geen debug-bestand gevonden.",
       "debugFileCleared": "Debug bestand opgeschoond.",
       "areYouSure": "Weet je het zeker?",
       "info": "Info",
       "serverAuthError": "Fout bij verificatie met server.",
-      "deleteAccount": "Verwijder Account"
+      "deleteAccount": "Verwijder account"
     },
     "message": {
       "allowCameraRoll": "Geef Memmy toestamming tot je fotobibliotheek.",
@@ -46,18 +46,18 @@
     }
   },
   "toast": {
-    "reportSubmitSuccessful": "Melding succesvol verzonden",
+    "reportSubmitSuccessful": "Melding succesvol verzonden!",
     "commentDeleted": "Reactie verwijderd",
     "failedToSavePost": "Het is niet gelukt je post op te slaan",
     "subscribedTo": "Abonneer op {{0}}",
     "unsubscribedFrom": "Afmelden van {{0}}",
     "unknownError": "Er heeft zich een onbekende fout voorgedaan.",
-    "userBlockedSuccess": "Gebruiker succesvol geblokkeerd.",
+    "userBlockedSuccess": "Gebruiker succesvol geblokkeerd",
     "accentColorUpdated": "Accent-kleur succesvol geüpdatet",
-    "accentColorInvalidHexCode": "Accentkleur is geen geldige hexcode.",
-    "allFieldsRequired": "Alle velden zijn verplicht.",
+    "accentColorInvalidHexCode": "Accentkleur is geen geldige hexcode",
+    "allFieldsRequired": "Alle velden zijn verplicht",
     "useUsername": "Gebruik je gebruikersnaam bij het aanmelden (no instance/@).",
-    "passwordsMismatch": "Wachtwoorden komen niet overeen.",
+    "passwordsMismatch": "Wachtwoorden komen niet overeen",
     "blocked": "Geblokkeerd {{0}}",
     "enterUrl": "Voer de URL in",
     "enterLabel": "Voer een omschrijving in.",
@@ -80,7 +80,7 @@
     "yy": "%dy"
   },
   "profile": {
-    "my": "Mijn Profiel"
+    "my": "Profiel"
   },
   "comment": {
     "edit": "Bewerk reactie",
@@ -100,9 +100,9 @@
     },
     "content": {
       "nsfw": {
-        "footer": "Deze instellingen hebben geen invloed op de NSFW-instellingen van je Lemmy-account. Deze instellingen zijn alleen van toepassing op de lokale app (globaal op alle accounts).",
-        "blur": "Blur NSFW Content",
-        "hide": "Verberg NSFW Content"
+        "footer": "Deze instellingen hebben geen invloed op de NSFW-instellingen van je Lemmy-account. Deze instellingen zijn alleen van toepassing op de deze app (globaal op alle accounts).",
+        "blur": "Blur NSFW-content",
+        "hide": "Verberg NSFW-content"
       },
       "web": {
         "useReaderMode": "Reader-modus"
@@ -205,8 +205,8 @@
         "3": "We zullen je helpen een hub te kiezen en te beginnen met posten. 🤗"
       },
       "6": {
-        "1": "Beetje ingewikkeld? 😔",
-        "2": " Dit kan ingewikkeld overkomen. <emphasis>Maar je hebt het Fediverse al eerder gebruikt.</emphasis>",
+        "1": "Lastig? 😔",
+        "2": "Dit kan ingewikkeld overkomen. <emphasis>Maar je hebt het Fediverse al eerder gebruikt.</emphasis>",
         "3": "Zolang je e-mail hebt gebruikt, <emphasis>heb je de Fediverse gebruikt.</emphasis>",
         "4": "De Fediverse werkt op een <emphasis>zeer vergelijkbare manier als e-mail.</emphasis>"
       },
@@ -267,7 +267,7 @@
   "Search": "Zoeken",
   "Inbox": "Inbox",
   "Posts": "Posts",
-  "Saved Posts": "Opgeslagen Posts",
+  "Saved Posts": "Opgeslagen posts",
   "New Comment": "Nieuwe reactie",
   "New Post": "Nieuwe post",
   "About": "Over",
@@ -298,10 +298,10 @@
   "Welcome": "Welkom",
   "Hubs": "Hubs",
   "Instance": "Instance",
-  "Copy Text": "Kopieër tekst",
+  "Copy Text": "Kopieer tekst",
   "Copy Link": "Kopieer Link",
   "Reply": "Antwoord",
-  "Report Post": "Meld Post",
+  "Report Post": "Rapporteer post",
   "Cancel": "Annuleren",
   "Submit": "Versturen",
   "Retry": "Opnieuw proberen",
@@ -316,25 +316,25 @@
   "Clear Debug Log": "Verwijder debug log",
   "Clear Cache": "Verwijder cache",
   "Default Sort": "Standaart sorteermethode",
-  "Default Comment Sort": "Standaart sorteermethode reacties",
+  "Default Comment Sort": "Standaard sorteermethode reacties",
   "Hide Read Posts on Feed": "Verberg gelezen berichten in je feed",
   "Show Hide Read Button": "Toon Verberg Gelezen-knop",
   "Show Comment Actions": "Toon reactie-opties",
   "NSFW": "NSFW",
-  "NSFW Content": "NSFW Content",
-  "Sensitive content ahead": "SGevoelige inhoud",
+  "NSFW Content": "NSFW-content",
+  "Sensitive content ahead": "Gevoelige inhoud",
   "Accent Color": "Accentkleur",
   "Add": "Toevoegen",
   "Logout": "Uitloggen",
   "Continue": "Doorgaan",
   "Server": "Server",
-  "Server Address": "Server adres",
+  "Server Address": "Serveradres",
   "Username": "Gebruikersnaam",
   "Password": "Wachtwoord",
   "Confirm Password": "Bevestig wachtwoord",
   "Push Notifications": "Pushnotificaties",
   "Save": "Opslaan",
-  "2FA Token": "2FA Token",
+  "2FA Token": "2FA-token",
   "Version": "Versie",
   "License": "Licentie",
   "Acknowledgements": "Erkenningen",
@@ -354,7 +354,7 @@
   "Login": "Login",
   "Yes": "Ja",
   "No": "Nee",
-  "Join": "Toetreden",
+  "Join": "Aanmelden",
   "Hub Info": "Hub Info",
   "Other Info": "Andere Info",
   "Legal Info": "Legal Info",
