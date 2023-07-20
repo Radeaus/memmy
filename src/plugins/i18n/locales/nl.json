@@ -1,0 +1,375 @@
+{
+  "noResult": {
+    "comments": "Nog geen reacties. Draag je steentje bij! 🫡",
+    "posts": "Geen posts gevonden. Start het gesprek!",
+    "profileComments": "Gebruiker heeft nog niet gereageerd.",
+    "profilePosts": "Gebruiker heeft geen posts",
+    "profileSavedPosts": "Gebruiker heeft nog geen opgeslagen posts.",
+    "search": "Geen resultaten.",
+    "inbox": "Je inbox is leeg",
+    "default": "Niks gevonden :("
+  },
+  "notFound": {
+    "community": "🤨 De content of groep is niet gevonden. 🧐"
+  },
+  "alert": {
+    "title": {
+      "error": "Fout",
+      "permissionsError": "Toestemmingsfout",
+      "unknownError": "Onbekende fout",
+      "success": "Gelukt",
+      "noDebugLog": "Geen debug-bestand gevonden.",
+      "debugFileCleared": "Debug bestand opgeschoond.",
+      "areYouSure": "Weet je het zeker?",
+      "info": "Info",
+      "serverAuthError": "Fout bij verificatie met server.",
+      "deleteAccount": "Verwijder Account"
+    },
+    "message": {
+      "allowCameraRoll": "Geef Memmy toestamming tot je fotobibliotheek.",
+      "imgurUploadError": "Fout bij het uploaden van de afbeelding naar Imgur.",
+      "reportComment": "Waarom wil je deze reactie rapporteren?",
+      "allowPushNotifications": "Geef Memmy toestemming om notificaties te sturen.",
+      "failedToRetrieveToken": "Fout bij ophalen token.",
+      "instanceAuthenticationFailed": "Authenticatie met instantie Lemmy mislukt.",
+      "pushNotificationsEnabled": "Pushmeldingen succesvol ingeschakeld.",
+      "pushNotificationsDisabled": "Pushmeldingen succesvol uitgeschakeld.",
+      "errorFetchingInstanceList": "Fout bij het ophalen van instanties. Opnieuw proberen?",
+      "unknownError": "Er is een onbekende fout opgetreden. Code {{0}}",
+      "sessionExpired": "Je sessie voor {{0}} is verlopen. Meld je opnieuw aan bij dit account.",
+      "cacheCleared": "Cache is verwijderd.",
+      "accountLogoutConfirm": "Zorg ervoor dat pushmeldingen zijn uitgeschakeld voordat je je afmeldt, anders kun je pushmeldingen voor dit account blijven ontvangen. Weet je zeker dat je je wilt afmelden {{0}}?",
+      "pushNotificationsConfirm": "Om pushmeldingen te laten werken, moet Memmy je authenticatietoken naar onze server sturen. Op dit moment is dit de enige haalbare manier om gebruikers pushberichten te laten ontvangen. Weet dat de Memmy-servers GEEN toegang hebben tot je wachtwoord, alleen tot je authenticatietoken. Authenticatietokens kunnen worden ingetrokken door je wachtwoord te wijzigen. De volledige broncode voor de Memmy push notificatie server is beschikbaar op https://github.com/gkasdorf/memmy-push. Wil je doorgaan?",
+      "deleteAccountConfirm": "Om alle gegevens van de servers van Memmy te verwijderen, schakel je de pushberichten uit. Als je geen pushberichten hebt ingeschakeld, hebben we geen gegevens van je. Om je Lemmy-account te verwijderen, moet je eerst naar {{0}} gaan en je aanmelden. Ga dan naar het tabblad Profiel. Je kunt je account verwijderen door op ¨Account verwijderen¨ te drukken.",
+      "registrationError": "Er is een fout opgetreden tijdens het voltooien van de registratie.",
+      "useUsername": "Gebruik je gebruikersnaam bij het aanmelden (no instance/@)."
+    }
+  },
+  "toast": {
+    "reportSubmitSuccessful": "Melding succesvol verzonden",
+    "commentDeleted": "Reactie verwijderd",
+    "failedToSavePost": "Het is niet gelukt je post op te slaan",
+    "subscribedTo": "Abonneer op {{0}}",
+    "unsubscribedFrom": "Afmelden van {{0}}",
+    "unknownError": "Er heeft zich een onbekende fout voorgedaan.",
+    "userBlockedSuccess": "Gebruiker succesvol geblokkeerd.",
+    "accentColorUpdated": "Accent-kleur succesvol geüpdatet",
+    "accentColorInvalidHexCode": "Accentkleur is geen geldige hexcode.",
+    "allFieldsRequired": "Alle velden zijn verplicht.",
+    "useUsername": "Gebruik je gebruikersnaam bij het aanmelden (no instance/@).",
+    "passwordsMismatch": "Wachtwoorden komen niet overeen.",
+    "blocked": "Geblokkeerd {{0}}",
+    "enterUrl": "Voer de URL in",
+    "enterLabel": "Voer een omschrijving in.",
+    "linkError": "Er is een fout bij het openen van de link."
+  },
+  "relativeTime": {
+    "future": "Over %s",
+    "past": "%s geleden",
+    "s": "1s",
+    "ss": "%ss",
+    "m": "1m",
+    "mm": "%dm",
+    "h": "1h",
+    "hh": "%dh",
+    "d": "1d",
+    "dd": "%dd",
+    "M": "1mo",
+    "MM": "%dmo",
+    "y": "1y",
+    "yy": "%dy"
+  },
+  "profile": {
+    "my": "Mijn Profiel"
+  },
+  "comment": {
+    "edit": "Bewerk reactie",
+    "report": "Rapporteer reactie",
+    "delete": "Verwijder reactie",
+    "replyingToPost": "Reageer op post",
+    "replyingToComment": "Reageer op reactie",
+    "deletedByUser": "Reactie verwijderd door gebruiker :(",
+    "removedByMod": "Reactie verwijderd door moderator :("
+  },
+  "settings": {
+    "haptics": {
+      "Off": "Uit",
+      "Light": "Licht",
+      "Medium": "Normaal",
+      "Heavy": "Zwaar"
+    },
+    "content": {
+      "nsfw": {
+        "footer": "Deze instellingen hebben geen invloed op de NSFW-instellingen van je Lemmy-account. Deze instellingen zijn alleen van toepassing op de lokale app (globaal op alle accounts).",
+        "blur": "Blur NSFW Content",
+        "hide": "Verberg NSFW Content"
+      },
+      "web": {
+        "useReaderMode": "Reader-modus"
+      },
+      "markRead": {
+        "header": "ALS GELEZEN MARKEREN INSTELLINGEN",
+        "onPostOpen": "Als gelezen markeren bij openen post",
+        "onImageView": "Als gelezen markeren bij bekijken afbeelding",
+        "onVote": "Als gelezen markeren bij up- of downvote",
+        "footer": "Verberg Gelezen Berichten in je feed verbergt automatisch gelezen berichten wanneer de feed wordt vernieuwd. Als Verberg Gelezen Berichten bij je feed is ingeschakeld, laat de knop Verberg Gelezen een zwevende actieknop zien om gelezen berichten te verbergen zonder dat de feed wordt vernieuwd."
+      }
+    },
+    "appearance": {
+      "themes": {
+        "header": "THEMA'S",
+        "matchSystem": "Match systeemthema licht/donker",
+        "systemLight": "Licht systeemthema",
+        "systemDark": "Donker systeemthema",
+        "light": "Lichte thema's",
+        "dark": "Donkere thema's",
+        "hexCode": {
+          "placeholder": "Voer een hex-code in"
+        }
+      },
+      "appIcon": "App-icoon",
+      "totalScore": "Geef totale score weer",
+      "imgIgnoreScreenHeight": "Afbeeldingen negeren schermhoogte",
+      "showUserInstance": "Laat instance voor gebruikersnaam zien",
+      "compactView": "Compacte weergave",
+      "compact": {
+        "header": "Compact",
+        "thumbPos": "Positie thumbnails",
+        "showVotingButtons": "Geef stemknoppen weer"
+      },
+      "font": {
+        "header": "FONT",
+        "useSystemFont": "Gebruik systeemfont",
+        "useSystemFontSize": "Gebruik systeem lettergrootte ",
+        "textSize": "Tekst grootte",
+        "postTitleFontWeight": "Lettertype - Titel Bericht"
+      },
+      "gestures": {
+        "header": "GEBAREN",
+        "tapToCollapse": "Tik om samen te voegen"
+      }
+    },
+    "accounts": {
+      "current": "Huidig account",
+      "server": {
+        "header": "Serveradres",
+        "footer": "URL voor de server die je wilt bereiken",
+        "placeholder": "Server Adres"
+      },
+      "credentials": {
+        "header": "Servergegevens",
+        "footer": "Gegevens van de server waarmee je wilt verbinden"
+      }
+    }
+  },
+  "traverse": {
+    "noSubscriptions": "Je hebt geen abonnementen"
+  },
+  "post": {
+    "header": "Post Info",
+    "title": "Titel",
+    "link": "Link (optioneel)",
+    "body": "Body (optioneel)",
+    "bodyPlaceholder": "Lekker typen!"
+  },
+  "onboarding": {
+    "hello": "Hallo!",
+    "welcomeTo": "Welkom bij",
+    "getStartedBtn": "Beginnen",
+    "hasAccountBtn": "Ik heb een account",
+    "checkEmail": "Check je e-mail",
+    "emailSent": "Er is een e-mail verzonden naar {{0}}. Controleer je account en druk op inloggen.",
+    "openEmailAppBtn": "Open E-mail App",
+    "agreeToTermsOfUse": "Door Memmy te gebruiken, ga je akkoord met de <linkAction><linkText>Gebruiksvoorwaarden</linkText></linkAction>.",
+    "info": {
+      "1": {
+        "1": "Weet je wat de Fediverse is?"
+      },
+      "2": {
+        "1": "Geen probleem! 👍",
+        "2": "We gaan het je kort uileggen 😃"
+      },
+      "3": {
+        "1": "Zie de Fediverse als een postbezorger ✉️",
+        "2": "Als je apps zoals Instagram, Twitter of Facebook gebruikt, <emphasis>behandelen zij de post exclusief voor jou.</emphasis>",
+        "3": "Iedereen ontvangt en verstuurt post via hen. Ze zijn <emphasis>gecentraliseerd</emphasis> en het enige middel binnen het platform om te communiceren."
+      },
+      "4": {
+        "1": "Oké, en wat is dan het verschil met de Fediverse? 🤔",
+        "2": "Je post gaat niet naar één centrale plek, maar naar je <emphasis>hub</emphasis>, een soort <emphasis>lokaal postkantoor</emphasis>.",
+        "3": "Jouw <emphasis>hub</emphasis> is verantwoordelijk voor het versturen van je mail naar andere <emphasis>hubs</emphasis> oftewel, postkantoren. Zij kunnen kiezen naar wie zij het bericht naartoe willen sturen. 🚚"
+      },
+      "5": {
+        "1": "Wie is mijn <emphasis>hub?</emphasis>? 🤔",
+        "2": "Een <emphasis>hub</emphasis> kan door iedereen worden gestart, net als een gemeenschapsgroep voor interesses. Je kiest zelf welke je wilt <emphasis>lid worden</emphasis>.",
+        "3": "We zullen je helpen een hub te kiezen en te beginnen met posten. 🤗"
+      },
+      "6": {
+        "1": "Beetje ingewikkeld? 😔",
+        "2": " Dit kan ingewikkeld overkomen. <emphasis>Maar je hebt het Fediverse al eerder gebruikt.</emphasis>",
+        "3": "Zolang je e-mail hebt gebruikt, <emphasis>heb je de Fediverse gebruikt.</emphasis>",
+        "4": "De Fediverse werkt op een <emphasis>zeer vergelijkbare manier als e-mail.</emphasis>"
+      },
+      "7": {
+        "1": "Laten we beginnen!",
+        "2": "We stellen eerst een hub voor je vast. We geven je een lijst met opties waaruit je kunt kiezen.",
+        "3": "Er zijn veel opties beschikbaar met veel verschillende gemeenschappen.",
+        "4": "Je kunt later teruggaan naar de instantie selectie om een andere hub te kiezen."
+      }
+    },
+    "hubDiscovery": {
+      "alreadyHaveServer": "Al lid van een hub/instance?"
+    }
+  },
+  "hubDiscovery": {
+    "createCommunities": {
+      "allowed": "Deze hub maakt door gebruikers gecreëerde groepen mogelijk.",
+      "notAllowed": "Deze hub staat door gebruikers gemaakte groepen niet toe."
+    },
+    "federated": {
+      "allowed": "Deze hub kan communiceren met andere hubs.",
+      "notAllowed": "Deze hub kan niet communiceren met andere hubs."
+    },
+    "downvote": {
+      "title": "Downvotes toegestaan",
+      "allowed": "Deze hub staat toe om te down-voten.",
+      "notAllowed": "Deze hub staat niet toe om te down-voten."
+    }
+  },
+  "feed": {
+    "footer": {
+      "loading": "Meer posts laden...",
+      "loadingError": "Het is niet gelukt meer posts te laden :("
+    }
+  },
+  "searchOptions": {
+    "header": "Selecteer een optie",
+    "communities": "Zoek groepen",
+    "users": "Zoek gebruikers",
+    "posts": "Zoek posts"
+  },
+  "memmyError": {
+    "title": "Nou, lekker dan. Memmy is vastgelopen. Herstart alsjeblieft de app.",
+    "description": "We houden niet van bugs, wil je het crashrapport versturen? Dan kunnen we Memmy blijven verbeteren! ♥️",
+    "submitBtn": "Verstuur crashrapport"
+  },
+  "loadingError": {
+    "text": "Fout bij laden van de content :(",
+    "retryBtn": "Opnieuw proberen"
+  },
+  "imageView": {
+    "dialogDesc": "Afbeelding downloaden..."
+  },
+  "Feed": "Feed",
+  "Comments": "Reacties",
+  "Traverse": "Traverse",
+  "Profile": "Profiel",
+  "Search": "Zoeken",
+  "Inbox": "Inbox",
+  "Posts": "Posts",
+  "Saved Posts": "Opgeslagen Posts",
+  "New Comment": "Nieuwe reactie",
+  "New Post": "Nieuwe post",
+  "About": "Over",
+  "View Comments": "Bekijk reacties",
+  "View Posts": "Bekijk posts",
+  "View Saved Posts": "Bekijk opgeslagen posts",
+  "Unread": "Ongelezen",
+  "All": "Alle",
+  "Replies": "Antwoorden",
+  "Communities": "Groepen",
+  "Blocked Communities": "Geblokkeerde groepen",
+  "Create Communities": "Maak een groep",
+  "Settings": "Instellingen",
+  "Accounts": "Accounts",
+  "Manage Accounts": "Manage accounts",
+  "Edit Account": "Bewerk account",
+  "Delete Account": "Delete account",
+  "Add Account": "Account toevoegen",
+  "Create Account": "Account aanmaken",
+  "Mark Post Read On": "Markeer post als gelezen...",
+  "View": "Weergave",
+  "Content": "Content",
+  "Appearance": "Uiterlijk",
+  "Theme": "Thema",
+  "Icon": "Icoon",
+  "General": "Algemeen",
+  "Loading": "Laden",
+  "Welcome": "Welkom",
+  "Hubs": "Hubs",
+  "Instance": "Instance",
+  "Copy Text": "Kopieër tekst",
+  "Copy Link": "Kopieer Link",
+  "Reply": "Antwoord",
+  "Report Post": "Meld Post",
+  "Cancel": "Annuleren",
+  "Submit": "Versturen",
+  "Retry": "Opnieuw proberen",
+  "Language": "Taal",
+  "Select Language": "Selecteer taal",
+  "Haptics": "Haptics",
+  "Strength": "Gevoeligheid",
+  "Use Default Browser": "Gebruik standaard browser",
+  "Browser": "Browser",
+  "No blocked communities": "Geen geblokkeerde groepen",
+  "Email Debug Log": "Email debug log",
+  "Clear Debug Log": "Verwijder debug log",
+  "Clear Cache": "Verwijder cache",
+  "Default Sort": "Standaart sorteermethode",
+  "Default Comment Sort": "Standaart sorteermethode reacties",
+  "Hide Read Posts on Feed": "Verberg gelezen berichten in je feed",
+  "Show Hide Read Button": "Toon Verberg Gelezen-knop",
+  "Show Comment Actions": "Toon reactie-opties",
+  "NSFW": "NSFW",
+  "NSFW Content": "NSFW Content",
+  "Sensitive content ahead": "SGevoelige inhoud",
+  "Accent Color": "Accentkleur",
+  "Add": "Toevoegen",
+  "Logout": "Uitloggen",
+  "Continue": "Doorgaan",
+  "Server": "Server",
+  "Server Address": "Server adres",
+  "Username": "Gebruikersnaam",
+  "Password": "Wachtwoord",
+  "Confirm Password": "Bevestig wachtwoord",
+  "Push Notifications": "Pushnotificaties",
+  "Save": "Opslaan",
+  "2FA Token": "2FA Token",
+  "Version": "Versie",
+  "License": "Licentie",
+  "Acknowledgements": "Erkenningen",
+  "Privacy Policy": "Privacy Policy",
+  "Terms of Use": "Gebruiksvoorwaarden",
+  "OK": "OK",
+  "Users": "Gebruikers",
+  "Comment": "Reactie",
+  "Comment_plural": "Reactie",
+  "Back": "Terug",
+  "Selected": "Geselecteerd",
+  "Favorites": "Favorieten",
+  "Subscriptions": "Abonnementen",
+  "Email": "E-mail",
+  "Captcha Answer": "Captcha antwoord",
+  "Link": "Link",
+  "Login": "Login",
+  "Yes": "Ja",
+  "No": "Nee",
+  "Join": "Toetreden",
+  "Hub Info": "Hub Info",
+  "Other Info": "Andere Info",
+  "Legal Info": "Legal Info",
+  "Federate": "Federate",
+  "User": "Gebruiker",
+  "User_plural": "Gebruikers",
+  "Defederated": "Defederated",
+  "Registration Closed": "Registratie gesloten",
+  "Application Required": "Aanvraag vereist",
+  "Open Registration": "Open registratie",
+  "Subscribed": "Aangemeld",
+  "Subscribe": "Abonneren",
+  "Post": "Post",
+  "Description": "Omschrijving",
+  "Label": "Label",
+  "Trending": "Trending",
+  "Go Back": "Ga terug"
+}
